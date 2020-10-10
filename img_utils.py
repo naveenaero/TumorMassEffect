@@ -4,11 +4,11 @@ import numpy as np
 import SimpleITK as sitk
 import scipy.misc as misc
 from PIL import Image
-from HelperTools.utils import readImage, saveImage
+#from HelperTools.utils import readImage, saveImage
 import matplotlib.pyplot as plt
 import matplotlib.pyplot as plt
 import scipy.ndimage.morphology as morph
-from HelperTools.utils import crop_BB, normalizeImage
+#from HelperTools.utils import crop_BB, normalizeImage
 from skimage import feature, filters, morphology, segmentation
 
 def generateSketch(img, sigma=1, low_threshold=40, high_threshold=80):
